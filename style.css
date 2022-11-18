@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0%;
+    margin: 1px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: left;
+    background-color: grey;
+    color: white;
+    border-bottom: solid black;
+
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+}
+
+table {
+	width: 100%;
+	text-align: left;
+    table-layout: fixed;
+    
+}
+
+button {
+	background-color: lightgrey;
+	color: black;
+	display: inline-block;
+	font-size: 18px;
+}
+
+input {
+	font-size: 16px;
+}
+
+thead {
+	text-decoration: solid;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+td.employeeAnnualSalary {
+    text-align: right;
+}
