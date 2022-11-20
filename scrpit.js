@@ -4,8 +4,9 @@ $(onReady);
 function onReady() {
 	console.log("Still ready!");
 	$(".submit-button").on("click", submitInformation);
-    $(".submit-button").on('click', removeInputs);
 }
+
+let employee = [];
 
 // Function that stores Employee Information
 function submitInformation() {
@@ -16,10 +17,10 @@ function submitInformation() {
 	let employeeTitle = $(".user-input-title").val();
 	let employeeAS = $(".user-input-a-s").val();
 
-	let employees = { fName, lName, employeeId, employeeTitle, employeeAS };
-	console.log(employees);
+	let addEmployees = { fName, lName, employeeId, employeeTitle, employeeAS };
+	console.log(addEmployees);
+
+	employee.push(addEmployees);
+	$('input').val('');
 } // end of submitInformation
 
-function removeInputs () {
-    console.log('Clicked!!!!');
-}
