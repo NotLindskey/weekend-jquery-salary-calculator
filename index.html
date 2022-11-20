@@ -13,7 +13,7 @@
 
 	<body>
 		<h1>Salary Calculator</h1>
-		<div id="all-employees">
+		<div id="employee-inputs">
 			<h2>Add Employee</h2>
 			<input class="user-input-f-name" type="text" data-employee="fName" placeholder="First Name" />
 			<input class="user-input-l-name" type="text" data-employee="lName" placeholder="Last Name" />
@@ -24,19 +24,20 @@
 			<br />
 			<br />
 
-			<button class="submit-button" id="removeInputs">Submit</button>
+			<button class="submit-button">Submit</button>
 		</div>
         
 		
 		<h2>Employees</h2>
         <div id="employee-table"></div>
 			<table>
-				<thead>
-					<th>First Name</th>
-					<th>Last Name</th>
-					<th>ID</th>
-					<th>Title</th>
-					<th>Annual Salary</th>
+				<thead> 
+					<tr>
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>ID</th>
+						<th>Title</th>
+						<th>Annual Salary</th>
 				</thead>
 				<tbody>
 					<tr>
