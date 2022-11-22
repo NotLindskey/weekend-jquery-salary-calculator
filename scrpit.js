@@ -38,13 +38,13 @@ function submitInformation() {
 	$("input").val("");
 	console.log(employees);
 
-	addToTable();
+	addRowToTable();
 } // end of submitInformation
 
-function addToTable() {
+function addRowToTable() {
 	let row = 1;
 	for (row of employees) {
-		console.log('working!')
+		console.log("working!");
 		$(".table-employee").append(`
 		<tr>
 			<td>${employees.firstName}</td>
